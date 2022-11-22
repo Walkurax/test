@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Walkurax.github.io/test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Wasiya wa mabanati",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "poem by Ustadh Mau",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Ustadh Mau Digital Archive",
+  "sequences" : [ {
+    "@id" : "http://5366a86b-b0d3-4bfa-9ddc-c30e52d002ed",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://38b09367-9190-45a6-ae80-dccd26d6111b",
+      "@type" : "sc:Canvas",
+      "label" : "Wasiya wa mabanati, page 1",
+      "height" : 4000,
+      "width" : 6000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://272998c1-ec9f-451a-a432-a63418681020",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/umada_ms_00001_00001/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/umada_ms_00001_00001",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4000,
+          "width" : 6000
+        },
+        "on" : "http://38b09367-9190-45a6-ae80-dccd26d6111b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e01489d3-7b50-4795-81b0-fe90b850c108",
+      "@type" : "sc:Canvas",
+      "label" : "Wasiya wa mabanati, page 2",
+      "height" : 4000,
+      "width" : 6000,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://c9bcdc37-1ac6-4f8d-8f1d-2b378e819725",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/umada_ms_00001_00002/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/umada_ms_00001_00002",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4000,
+          "width" : 6000
+        },
+        "on" : "http://e01489d3-7b50-4795-81b0-fe90b850c108"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
